@@ -1,0 +1,39 @@
+*, *::before,*::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0 solid transparent;
+  }
+
+  body {
+    background-color: black;
+    font-family: Verdana;
+    text-align: center;
+  }
+
+  h1 {
+    color: white; 
+    font-weight: normal; 
+    font-size: 50px; 
+    padding: 20px;
+}
+
+a {
+    color: aquamarine;
+    font-size: 16px; 
+    padding: 20px;
+}
+
+p {
+    color: gray; 
+    font-size: 21px;
+    padding: 20px;
+}
+
+p.rights {
+    text-align: right;
+}
+
